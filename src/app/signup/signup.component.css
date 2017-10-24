@@ -1,0 +1,68 @@
+.form_wrapper {
+    width: 30%;
+    min-width: 380px;
+    height: 100px;
+    margin: 6% auto;
+}
+form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5em;
+    border: 2px solid #eee; 
+}
+
+.form-header {
+    background-color: black;
+    color:white;
+    text-align: center;
+    height:58px;
+}
+
+input[type=text],[type=password],[type=email]{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.4375rem;
+    margin: 28px 0px;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #cacaca;
+    border-radius: 0;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
+    font-family: inherit;
+    color: #070707;
+    -webkit-transition: border-color .25s ease-in-out,-webkit-box-shadow .5s;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.submit-btn {
+    height: 38px;
+    width: 80px;
+    text-align: center;
+    cursor: default;
+    color: white;
+    background-color: #1976D2;
+    border-width: 0px;
+    padding: 7px;
+    vertical-align: top;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color:#63aaf1;
+}    
+
+.form_padding {
+    padding: 0px 43px;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+    padding-right: 16px;
+}
